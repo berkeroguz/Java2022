@@ -1,0 +1,13 @@
+package sesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf='A';
+		
+		if (harf == "A" || harf == 'O' || harf == 'U' || harf == 'I') {
+			
+		}
+	}
+
+}

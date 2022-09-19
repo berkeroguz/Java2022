@@ -1,0 +1,22 @@
+package stringsDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Stringler azlında bir Char dizisidir.
+		
+		String mesaj = "Bugün Hava Çok Güzel";
+		System.out.println(mesaj);
+		
+		System.out.println("Eleman sayısı : " + mesaj.length()); //String içindeki karakter sayısını söyler.
+		System.out.println("5. Eleman : " + mesaj.charAt(2)); //Stringteki istenilen indexteki elemanı getirir.
+		System.out.println(mesaj.concat("   YAŞASIN !")); //String değere birleştirme yapar.
+		System.out.println(mesaj.startsWith("B")); // B ile başlıyorsa true döndürür.
+		System.out.println(mesaj.endsWith(".")); // . ile bitiyor mu? 
+		
+		char[] karakterler = new char[5];
+		mesaj.getChars(0, 4, karakterler, 0);
+		System.out.println(karakterler);
+	}
+
+}

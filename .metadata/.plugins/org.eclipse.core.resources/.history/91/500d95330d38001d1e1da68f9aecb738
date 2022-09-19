@@ -1,0 +1,21 @@
+package sesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf='A';
+		
+		if (harf == 'A' || harf == 'O' || harf == 'U' || harf == 'I') {
+			System.out.println(harf + "bir kalin seslidir.");
+		}
+		else if (harf == 'E' || harf == 'Ö' || harf == 'Ü' || harf == 'İ') {
+			System.out.println(harf + "bir ince seslidir");
+			
+		}
+		else 
+		{
+			System.out.println("lütfen kalın ya da sesli bir harf giriniz.");
+		}
+	}
+
+}

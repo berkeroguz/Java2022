@@ -1,0 +1,59 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int number =1;
+		boolean asalMi=true;
+		
+		for(int i=2;i<number;i++)
+		{
+			if(number==2)
+			{
+				break;
+			}
+			else if (number%i==0)
+			{
+				asalMi=false;
+				break;
+			}
+		}
+		if(asalMi==true)
+		{
+			System.out.println("sayi asaildir.");
+		}
+		else
+		{
+			System.out.println("sayi asal degildir.");
+		}
+		
+		
+		
+		
+		
+		
+		
+		/*for (int i=2;i<sayi;i++)
+		{
+			int sonuc = sayi %i;
+			if (sonuc==0)
+			{
+				asalMi=false;
+				break;
+			}
+			
+		}
+		if(asalMi==true)
+		{
+			System.out.println("Sayı asaldır.");
+		}
+		else
+		{
+			System.out.println("sayı asal değildir.");
+		}
+		*/
+
+	}
+
+}

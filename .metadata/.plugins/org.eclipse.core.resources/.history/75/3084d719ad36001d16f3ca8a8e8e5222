@@ -1,0 +1,14 @@
+package stringsDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Stringler azlında bir Char dizisidir.
+		
+		String mesaj = "Bugün Hava Çok Güzel";
+		System.out.println(mesaj);
+		
+		System.out.println("Eleman sayısı : " + mesaj.length);
+	}
+
+}
